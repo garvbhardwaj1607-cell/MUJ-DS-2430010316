@@ -1,0 +1,5 @@
+PlantVillage (colour + segmented), 38 classes. Source: https://github.com/spMohanty/PlantVillage-Dataset (commit 7f7ecc7e1eaca78107e3affe7cb5abd9427e139a).
+Full dataset: 54305 images. Used: stratified subset of 7552 images (cap 200 per class), 96x96.
+Split: 70/15/15 stratified (seed 42): train 5286, val 1133, test 1133.
+Preprocessing: resize to 96x96 (bilinear); scale to [0,1], per-channel mean/std normalisation at train time; leaf mask from segmented image: max(RGB)>20 then 7x7 morphological closing.
+Per-class counts: results/dataset_distribution.csv. The cached array data/cache_96.npz (about 150 MB) is not stored in the repository; regenerate it with code/preprocessing.py (see INSTALL.md).
