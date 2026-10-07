@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+capstone/data/cache_*.npz
+capstone/models/pretrained/
+capstone/models/*.pt
+!capstone/models/proposed_mnv3_bgaug.pt
+*.zip
