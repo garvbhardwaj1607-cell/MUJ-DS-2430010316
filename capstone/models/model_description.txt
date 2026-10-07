@@ -1,0 +1,5 @@
+models/proposed_mnv3_bgaug.pt: the proposed model (ImageNet-pretrained MobileNetV3-Large fine-tuned on PlantVillage with background-randomisation
+training; seed 0, checkpoint of the best validation epoch). Dict with keys: state (timm 'mobilenetv3_large_100' weights), mean, std, classes, arch, img.
+All other trained checkpoints (about 135 MB) are not stored in the repository; run run_all.sh / run_pretrained.sh to regenerate them.
+Pretrained starting weights (official timm release) are not stored either; see INSTALL.md.
+Architectures: code/model.py.
