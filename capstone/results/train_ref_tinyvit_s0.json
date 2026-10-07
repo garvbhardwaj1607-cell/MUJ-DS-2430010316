@@ -1,0 +1,10 @@
+{
+  "tag": "ref_tinyvit_s0",
+  "params": 350918,
+  "best_val_acc": 0.8252427184466019,
+  "train_seconds": 287.9561560153961,
+  "epochs": 12,
+  "lr": 0.003,
+  "batch": 64,
+  "wd": 0.0001
+}

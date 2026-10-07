@@ -1,0 +1,10 @@
+{
+  "tag": "baseline_s0_lr6e-3",
+  "params": 662558,
+  "best_val_acc": 0.8923212709620476,
+  "train_seconds": 278.32668948173523,
+  "epochs": 12,
+  "lr": 0.006,
+  "batch": 64,
+  "wd": 0.0001
+}

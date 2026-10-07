@@ -1,0 +1,10 @@
+{
+  "tag": "baseline_s0",
+  "params": 662558,
+  "best_val_acc": 0.8923212709620476,
+  "train_seconds": 536.0445456504822,
+  "epochs": 12,
+  "lr": 0.003,
+  "batch": 64,
+  "wd": 0.0001
+}

@@ -1,0 +1,10 @@
+{
+  "tag": "ABC_proposed_s1",
+  "params": 675129,
+  "best_val_acc": 0.766107678729038,
+  "train_seconds": 545.9475646018982,
+  "epochs": 12,
+  "lr": 0.003,
+  "batch": 64,
+  "wd": 0.0001
+}

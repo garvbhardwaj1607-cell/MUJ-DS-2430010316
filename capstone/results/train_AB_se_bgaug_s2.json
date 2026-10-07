@@ -1,0 +1,10 @@
+{
+  "tag": "AB_se_bgaug_s2",
+  "params": 675032,
+  "best_val_acc": 0.8040600176522507,
+  "train_seconds": 334.8124325275421,
+  "epochs": 12,
+  "lr": 0.003,
+  "batch": 64,
+  "wd": 0.0001
+}

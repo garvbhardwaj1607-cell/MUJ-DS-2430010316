@@ -1,0 +1,4 @@
+run,learning_rate,best_val_acc,train_seconds
+baseline_s0,0.003,0.8923,536
+baseline_s0_lr1e-3,0.001,0.8959,252
+baseline_s0_lr6e-3,0.006,0.8923,278

@@ -1,0 +1,9 @@
+Model,seeds,Accuracy,Precision(macro),Recall(macro),F1(macro),AUC(macro OvR),BG-swap Acc,Params,CPU ms/img (1 thread)
+ResNet-style (scratch),1,0.9056,0.9089,0.9056,0.9041,0.99779,0.1306,1559678,4.69
+MobileNet-style (scratch),1,0.9100,0.9139,0.9100,0.9092,0.99799,0.1183,370382,2.49
+Tiny ViT (scratch),1,0.8508,0.8552,0.8510,0.8505,0.99386,0.0953,350918,1.40
+"MobileNetV3-L (ImageNet-pretrained, fine-tuned)",3,0.9762 ± 0.0036,0.9765 ± 0.0036,0.9762 ± 0.0036,0.9760 ± 0.0036,0.99976 ± 0.00003,0.4901 ± 0.0348,4250710,12.29 ± 4.22
+"EfficientNet-B0 (ImageNet-pretrained, fine-tuned)",1,0.9744,0.9746,0.9746,0.9742,0.99978,0.4351,4056226,9.18
+Baseline LeafNet,3,0.8906 ± 0.0148,0.8928 ± 0.0154,0.8902 ± 0.0150,0.8884 ± 0.0147,0.99727 ± 0.00045,0.1506 ± 0.0069,662558,1.78 ± 0.04
++ mask-supervised spatial attention (A+B+C) = LeafNet A+B+C,3,0.7988 ± 0.0059,0.7994 ± 0.0059,0.7986 ± 0.0058,0.7939 ± 0.0069,0.99278 ± 0.00044,0.7182 ± 0.0055,675129,2.14 ± 0.03
+MobileNetV3-L pretrained + background randomisation (B) = Proposed,3,0.9653 ± 0.0061,0.9657 ± 0.0058,0.9654 ± 0.0060,0.9647 ± 0.0063,0.99954 ± 0.00002,0.9400 ± 0.0050,4250710,12.07 ± 4.50

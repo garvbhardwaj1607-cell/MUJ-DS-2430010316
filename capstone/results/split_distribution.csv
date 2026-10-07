@@ -1,0 +1,4 @@
+split,images,percent
+train,5286,70.0
+val,1133,15.0
+test,1133,15.0

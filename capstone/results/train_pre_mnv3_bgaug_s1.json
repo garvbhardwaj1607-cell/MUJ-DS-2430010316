@@ -1,0 +1,10 @@
+{
+  "tag": "pre_mnv3_bgaug_s1",
+  "params": 4250710,
+  "best_val_acc": 0.9558693733451015,
+  "train_seconds": 1333.5312492847443,
+  "epochs": 8,
+  "lr": 0.001,
+  "batch": 64,
+  "wd": 0.0001
+}

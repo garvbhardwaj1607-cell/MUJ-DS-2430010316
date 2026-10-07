@@ -1,0 +1,25 @@
+skip pre_mnv3_bgaug_s0
+[pre_mnv3_bgaug_s1] params=4,250,710 train=5286 val=1133
+[pre_mnv3_bgaug_s1] ep 01 train_loss 3.160 acc 0.234 | val_loss 1.248 acc 0.684 | 141s
+[pre_mnv3_bgaug_s1] ep 02 train_loss 0.787 acc 0.758 | val_loss 0.453 acc 0.846 | 274s
+[pre_mnv3_bgaug_s1] ep 03 train_loss 0.442 acc 0.859 | val_loss 0.279 acc 0.916 | 421s
+[pre_mnv3_bgaug_s1] ep 04 train_loss 0.283 acc 0.908 | val_loss 0.240 acc 0.925 | 542s
+skip pre_mnv3_bgaug_s0
+[pre_mnv3_bgaug_s1] params=4,250,710 train=5286 val=1133
+[pre_mnv3_bgaug_s1] ep 01 train_loss 3.160 acc 0.234 | val_loss 1.248 acc 0.684 | 169s
+[pre_mnv3_bgaug_s1] ep 02 train_loss 0.787 acc 0.758 | val_loss 0.453 acc 0.846 | 338s
+[pre_mnv3_bgaug_s1] ep 03 train_loss 0.442 acc 0.859 | val_loss 0.279 acc 0.916 | 511s
+[pre_mnv3_bgaug_s1] ep 04 train_loss 0.283 acc 0.908 | val_loss 0.240 acc 0.925 | 677s
+[pre_mnv3_bgaug_s1] ep 05 train_loss 0.188 acc 0.935 | val_loss 0.207 acc 0.934 | 835s
+[pre_mnv3_bgaug_s1] ep 06 train_loss 0.120 acc 0.960 | val_loss 0.137 acc 0.952 | 1002s
+[pre_mnv3_bgaug_s1] ep 07 train_loss 0.072 acc 0.976 | val_loss 0.127 acc 0.954 | 1166s
+[pre_mnv3_bgaug_s1] ep 08 train_loss 0.069 acc 0.976 | val_loss 0.127 acc 0.956 | 1333s
+[pre_mnv3_bgaug_s2] params=4,250,710 train=5286 val=1133
+[pre_mnv3_bgaug_s2] ep 01 train_loss 3.161 acc 0.227 | val_loss 1.303 acc 0.682 | 170s
+[pre_mnv3_bgaug_s2] ep 02 train_loss 0.777 acc 0.765 | val_loss 0.472 acc 0.861 | 334s
+[pre_mnv3_bgaug_s2] ep 03 train_loss 0.443 acc 0.862 | val_loss 0.330 acc 0.888 | 504s
+[pre_mnv3_bgaug_s2] ep 04 train_loss 0.288 acc 0.910 | val_loss 0.211 acc 0.930 | 666s
+[pre_mnv3_bgaug_s2] ep 05 train_loss 0.168 acc 0.946 | val_loss 0.177 acc 0.949 | 832s
+[pre_mnv3_bgaug_s2] ep 06 train_loss 0.101 acc 0.967 | val_loss 0.127 acc 0.964 | 996s
+[pre_mnv3_bgaug_s2] ep 07 train_loss 0.079 acc 0.972 | val_loss 0.109 acc 0.967 | 1156s
+[pre_mnv3_bgaug_s2] ep 08 train_loss 0.055 acc 0.982 | val_loss 0.108 acc 0.965 | 1322s

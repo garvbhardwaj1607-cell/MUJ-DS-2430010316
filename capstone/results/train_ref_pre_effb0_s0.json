@@ -1,0 +1,10 @@
+{
+  "tag": "ref_pre_effb0_s0",
+  "params": 4056226,
+  "best_val_acc": 0.9832303618711385,
+  "train_seconds": 1529.802715063095,
+  "epochs": 8,
+  "lr": 0.001,
+  "batch": 64,
+  "wd": 0.0001
+}

@@ -1,0 +1,10 @@
+{
+  "tag": "ref_pre_mnv3_s1",
+  "params": 4250710,
+  "best_val_acc": 0.9682259488084731,
+  "train_seconds": 1272.6534543037415,
+  "epochs": 8,
+  "lr": 0.001,
+  "batch": 64,
+  "wd": 0.0001
+}

@@ -1,0 +1,3 @@
+Experiment,B: BG-rand,seeds,Accuracy,Macro-F1,BG-swap Acc,BG-swap F1,ECE,Leaf-focus (clean),Leaf-focus (BG-swap),Params
+MobileNetV3-L pretrained (plain),✗,3,0.9762 ± 0.0036,0.9760 ± 0.0036,0.4901 ± 0.0348,0.4832 ± 0.0238,0.0092 ± 0.0018,0.5985 ± 0.0020,0.6375 ± 0.0144,4250710
+MobileNetV3-L pretrained + background randomisation (B),✓,3,0.9653 ± 0.0061,0.9647 ± 0.0063,0.9400 ± 0.0050,0.9395 ± 0.0052,0.0132 ± 0.0025,0.6680 ± 0.0066,0.6940 ± 0.0103,4250710

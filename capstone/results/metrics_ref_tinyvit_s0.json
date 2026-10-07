@@ -1,0 +1,19 @@
+{
+  "tag": "ref_tinyvit_s0",
+  "variant": "ref_tinyvit",
+  "best_epoch": 12,
+  "params": 350918,
+  "accuracy": 0.8508384819064431,
+  "precision_macro": 0.8551979989934636,
+  "recall_macro": 0.8509534706331046,
+  "f1_macro": 0.8504896115586845,
+  "precision_weighted": 0.855333085189069,
+  "recall_weighted": 0.8508384819064431,
+  "f1_weighted": 0.8504860638732474,
+  "specificity_macro": 0.9959685361746724,
+  "roc_auc_macro_ovr": 0.9938582127606859,
+  "ece": 0.0603625513613224,
+  "bgswap_accuracy": 0.09532215357458076,
+  "bgswap_f1_macro": 0.06443928275526332,
+  "latency_ms_cpu_1thread": 1.3991451263427734
+}

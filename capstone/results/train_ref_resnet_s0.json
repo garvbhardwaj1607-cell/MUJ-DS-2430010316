@@ -1,0 +1,10 @@
+{
+  "tag": "ref_resnet_s0",
+  "params": 1559678,
+  "best_val_acc": 0.9073256840247131,
+  "train_seconds": 2025.7446022033691,
+  "epochs": 12,
+  "lr": 0.003,
+  "batch": 64,
+  "wd": 0.0001
+}

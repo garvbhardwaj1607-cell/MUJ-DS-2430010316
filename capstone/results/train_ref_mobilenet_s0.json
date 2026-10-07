@@ -1,0 +1,10 @@
+{
+  "tag": "ref_mobilenet_s0",
+  "params": 370382,
+  "best_val_acc": 0.909973521624007,
+  "train_seconds": 1577.4981813430786,
+  "epochs": 12,
+  "lr": 0.003,
+  "batch": 64,
+  "wd": 0.0001
+}

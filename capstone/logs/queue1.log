@@ -1,0 +1,135 @@
+[baseline_s0] params=662,558 train=5286 val=1133
+[baseline_s0] ep 01 train_loss 3.141 acc 0.187 | val_loss 2.499 acc 0.361 | 48s
+[baseline_s0] ep 02 train_loss 2.172 acc 0.425 | val_loss 2.032 acc 0.417 | 96s
+[baseline_s0] ep 03 train_loss 1.630 acc 0.530 | val_loss 1.624 acc 0.530 | 139s
+[baseline_s0] ep 04 train_loss 1.378 acc 0.585 | val_loss 1.250 acc 0.602 | 183s
+[baseline_s0] ep 05 train_loss 1.152 acc 0.643 | val_loss 1.318 acc 0.589 | 226s
+[baseline_s0] ep 06 train_loss 0.954 acc 0.705 | val_loss 0.815 acc 0.741 | 269s
+[baseline_s0] ep 07 train_loss 0.819 acc 0.746 | val_loss 0.745 acc 0.773 | 313s
+[baseline_s0] ep 08 train_loss 0.664 acc 0.789 | val_loss 0.604 acc 0.814 | 358s
+[baseline_s0] ep 09 train_loss 0.543 acc 0.834 | val_loss 0.436 acc 0.868 | 403s
+[baseline_s0] ep 10 train_loss 0.473 acc 0.850 | val_loss 0.389 acc 0.881 | 448s
+[baseline_s0] ep 11 train_loss 0.411 acc 0.872 | val_loss 0.347 acc 0.892 | 492s
+[baseline_s0] ep 12 train_loss 0.365 acc 0.886 | val_loss 0.349 acc 0.883 | 536s
+[AB_se_bgaug_s0] params=675,032 train=5286 val=1133
+skip baseline_s0 (already trained)
+[AB_se_bgaug_s0] params=675,032 train=5286 val=1133
+[AB_se_bgaug_s0] ep 01 train_loss 3.438 acc 0.120 | val_loss 2.860 acc 0.240 | 45s
+[AB_se_bgaug_s0] ep 02 train_loss 2.783 acc 0.235 | val_loss 2.578 acc 0.288 | 86s
+[AB_se_bgaug_s0] ep 03 train_loss 2.325 acc 0.316 | val_loss 2.044 acc 0.382 | 132s
+[AB_se_bgaug_s0] ep 04 train_loss 2.080 acc 0.379 | val_loss 1.853 acc 0.469 | 201s
+[AB_se_bgaug_s0] ep 05 train_loss 1.852 acc 0.444 | val_loss 1.390 acc 0.568 | 285s
+[AB_se_bgaug_s0] ep 06 train_loss 1.648 acc 0.495 | val_loss 1.379 acc 0.573 | 369s
+[AB_se_bgaug_s0] ep 07 train_loss 1.443 acc 0.550 | val_loss 1.393 acc 0.560 | 456s
+[AB_se_bgaug_s0] ep 08 train_loss 1.268 acc 0.599 | val_loss 1.030 acc 0.672 | 540s
+[AB_se_bgaug_s0] ep 09 train_loss 1.125 acc 0.652 | val_loss 0.926 acc 0.697 | 624s
+[AB_se_bgaug_s0] ep 10 train_loss 1.010 acc 0.685 | val_loss 0.740 acc 0.763 | 708s
+[AB_se_bgaug_s0] ep 11 train_loss 0.938 acc 0.700 | val_loss 0.697 acc 0.777 | 793s
+[AB_se_bgaug_s0] ep 12 train_loss 0.897 acc 0.727 | val_loss 0.676 acc 0.787 | 877s
+[ref_resnet_s0] params=1,559,678 train=5286 val=1133
+[ref_resnet_s0] ep 01 train_loss 2.900 acc 0.216 | val_loss 2.564 acc 0.297 | 170s
+[ref_resnet_s0] ep 02 train_loss 1.905 acc 0.448 | val_loss 2.511 acc 0.329 | 332s
+[ref_resnet_s0] ep 03 train_loss 1.629 acc 0.509 | val_loss 1.818 acc 0.462 | 495s
+[ref_resnet_s0] ep 04 train_loss 1.351 acc 0.582 | val_loss 1.220 acc 0.620 | 742s
+[ref_resnet_s0] ep 05 train_loss 1.148 acc 0.644 | val_loss 1.077 acc 0.665 | 908s
+[ref_resnet_s0] ep 06 train_loss 0.944 acc 0.705 | val_loss 0.942 acc 0.707 | 1067s
+[ref_resnet_s0] ep 07 train_loss 0.765 acc 0.757 | val_loss 0.719 acc 0.781 | 1225s
+[ref_resnet_s0] ep 08 train_loss 0.639 acc 0.794 | val_loss 0.586 acc 0.808 | 1382s
+[ref_resnet_s0] ep 09 train_loss 0.526 acc 0.836 | val_loss 0.443 acc 0.864 | 1543s
+[ref_resnet_s0] ep 10 train_loss 0.438 acc 0.859 | val_loss 0.358 acc 0.891 | 1704s
+[ref_resnet_s0] ep 11 train_loss 0.374 acc 0.880 | val_loss 0.312 acc 0.907 | 1864s
+[ref_resnet_s0] ep 12 train_loss 0.334 acc 0.895 | val_loss 0.313 acc 0.906 | 2026s
+[baseline_s1] params=662,558 train=5286 val=1133
+[baseline_s1] ep 01 train_loss 3.144 acc 0.191 | val_loss 2.440 acc 0.391 | 79s
+[baseline_s1] ep 02 train_loss 2.190 acc 0.421 | val_loss 2.243 acc 0.350 | 158s
+[baseline_s1] ep 03 train_loss 1.685 acc 0.517 | val_loss 2.114 acc 0.369 | 235s
+[baseline_s1] ep 04 train_loss 1.418 acc 0.571 | val_loss 1.489 acc 0.538 | 314s
+[baseline_s1] ep 05 train_loss 1.136 acc 0.656 | val_loss 1.428 acc 0.562 | 393s
+[baseline_s1] ep 06 train_loss 0.998 acc 0.689 | val_loss 0.951 acc 0.704 | 473s
+[baseline_s1] ep 07 train_loss 0.844 acc 0.734 | val_loss 0.740 acc 0.771 | 551s
+[baseline_s1] ep 08 train_loss 0.722 acc 0.778 | val_loss 0.704 acc 0.771 | 631s
+[baseline_s1] ep 09 train_loss 0.615 acc 0.804 | val_loss 0.483 acc 0.838 | 688s
+[baseline_s1] ep 10 train_loss 0.516 acc 0.842 | val_loss 0.420 acc 0.876 | 726s
+[baseline_s1] ep 11 train_loss 0.475 acc 0.854 | val_loss 0.381 acc 0.891 | 766s
+[baseline_s1] ep 12 train_loss 0.437 acc 0.868 | val_loss 0.376 acc 0.884 | 805s
+[AB_se_bgaug_s1] params=675,032 train=5286 val=1133
+[AB_se_bgaug_s1] ep 01 train_loss 3.447 acc 0.108 | val_loss 2.918 acc 0.221 | 41s
+[AB_se_bgaug_s1] ep 02 train_loss 2.823 acc 0.237 | val_loss 2.277 acc 0.339 | 81s
+[AB_se_bgaug_s1] ep 03 train_loss 2.348 acc 0.309 | val_loss 2.329 acc 0.326 | 121s
+[AB_se_bgaug_s1] ep 04 train_loss 2.080 acc 0.379 | val_loss 2.074 acc 0.394 | 161s
+[AB_se_bgaug_s1] ep 05 train_loss 1.820 acc 0.447 | val_loss 1.550 acc 0.516 | 200s
+[AB_se_bgaug_s1] ep 06 train_loss 1.582 acc 0.516 | val_loss 1.944 acc 0.448 | 240s
+[AB_se_bgaug_s1] ep 07 train_loss 1.425 acc 0.566 | val_loss 1.185 acc 0.614 | 279s
+[AB_se_bgaug_s1] ep 08 train_loss 1.244 acc 0.611 | val_loss 1.274 acc 0.609 | 318s
+[AB_se_bgaug_s1] ep 09 train_loss 1.118 acc 0.647 | val_loss 0.847 acc 0.717 | 357s
+[AB_se_bgaug_s1] ep 10 train_loss 1.016 acc 0.675 | val_loss 0.728 acc 0.768 | 396s
+[AB_se_bgaug_s1] ep 11 train_loss 0.973 acc 0.702 | val_loss 0.690 acc 0.779 | 435s
+[AB_se_bgaug_s1] ep 12 train_loss 0.914 acc 0.718 | val_loss 0.683 acc 0.781 | 475s
+[baseline_s2] params=662,558 train=5286 val=1133
+[baseline_s2] ep 01 train_loss 3.063 acc 0.218 | val_loss 2.445 acc 0.379 | 37s
+[baseline_s2] ep 02 train_loss 2.167 acc 0.421 | val_loss 1.953 acc 0.411 | 73s
+[baseline_s2] ep 03 train_loss 1.646 acc 0.519 | val_loss 1.922 acc 0.457 | 109s
+[baseline_s2] ep 04 train_loss 1.388 acc 0.586 | val_loss 1.555 acc 0.529 | 144s
+[baseline_s2] ep 05 train_loss 1.160 acc 0.650 | val_loss 1.245 acc 0.609 | 180s
+[baseline_s2] ep 06 train_loss 1.000 acc 0.696 | val_loss 0.949 acc 0.713 | 215s
+[baseline_s2] ep 07 train_loss 0.826 acc 0.733 | val_loss 0.721 acc 0.776 | 250s
+[baseline_s2] ep 08 train_loss 0.714 acc 0.772 | val_loss 0.619 acc 0.804 | 286s
+[baseline_s2] ep 09 train_loss 0.599 acc 0.811 | val_loss 0.517 acc 0.839 | 322s
+[baseline_s2] ep 10 train_loss 0.519 acc 0.835 | val_loss 0.422 acc 0.875 | 357s
+[baseline_s2] ep 11 train_loss 0.453 acc 0.863 | val_loss 0.370 acc 0.897 | 393s
+[baseline_s2] ep 12 train_loss 0.412 acc 0.873 | val_loss 0.369 acc 0.896 | 428s
+[AB_se_bgaug_s2] params=675,032 train=5286 val=1133
+[AB_se_bgaug_s2] ep 01 train_loss 3.434 acc 0.111 | val_loss 2.904 acc 0.243 | 39s
+[AB_se_bgaug_s2] ep 02 train_loss 2.772 acc 0.235 | val_loss 2.639 acc 0.289 | 75s
+[AB_se_bgaug_s2] ep 03 train_loss 2.353 acc 0.294 | val_loss 1.984 acc 0.410 | 112s
+[AB_se_bgaug_s2] ep 04 train_loss 2.047 acc 0.385 | val_loss 1.742 acc 0.447 | 149s
+[AB_se_bgaug_s2] ep 05 train_loss 1.752 acc 0.464 | val_loss 1.633 acc 0.515 | 185s
+[AB_se_bgaug_s2] ep 06 train_loss 1.574 acc 0.525 | val_loss 1.564 acc 0.528 | 221s
+skip baseline_s0 (already trained)
+skip AB_se_bgaug_s0 (already trained)
+skip ref_resnet_s0 (already trained)
+skip baseline_s1 (already trained)
+skip AB_se_bgaug_s1 (already trained)
+skip baseline_s2 (already trained)
+[AB_se_bgaug_s2] params=675,032 train=5286 val=1133
+[AB_se_bgaug_s2] ep 01 train_loss 3.434 acc 0.111 | val_loss 2.904 acc 0.243 | 32s
+[AB_se_bgaug_s2] ep 02 train_loss 2.772 acc 0.235 | val_loss 2.639 acc 0.289 | 58s
+[AB_se_bgaug_s2] ep 03 train_loss 2.353 acc 0.294 | val_loss 1.984 acc 0.410 | 86s
+[AB_se_bgaug_s2] ep 04 train_loss 2.047 acc 0.385 | val_loss 1.742 acc 0.447 | 113s
+[AB_se_bgaug_s2] ep 05 train_loss 1.752 acc 0.464 | val_loss 1.633 acc 0.515 | 140s
+[AB_se_bgaug_s2] ep 06 train_loss 1.574 acc 0.525 | val_loss 1.564 acc 0.528 | 168s
+[AB_se_bgaug_s2] ep 07 train_loss 1.397 acc 0.559 | val_loss 1.201 acc 0.629 | 197s
+[AB_se_bgaug_s2] ep 08 train_loss 1.248 acc 0.610 | val_loss 0.917 acc 0.708 | 225s
+[AB_se_bgaug_s2] ep 09 train_loss 1.117 acc 0.649 | val_loss 0.790 acc 0.750 | 253s
+[AB_se_bgaug_s2] ep 10 train_loss 0.993 acc 0.683 | val_loss 0.703 acc 0.783 | 281s
+[AB_se_bgaug_s2] ep 11 train_loss 0.907 acc 0.704 | val_loss 0.663 acc 0.801 | 307s
+[AB_se_bgaug_s2] ep 12 train_loss 0.893 acc 0.718 | val_loss 0.657 acc 0.804 | 335s
+/home/claude/work/2430010316/src/model.py:127: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.enc = nn.TransformerEncoder(layer, depth)
+[ref_tinyvit_s0] params=350,918 train=5286 val=1133
+[ref_tinyvit_s0] ep 01 train_loss 3.278 acc 0.121 | val_loss 2.745 acc 0.264 | 26s
+[ref_tinyvit_s0] ep 02 train_loss 2.403 acc 0.340 | val_loss 2.185 acc 0.388 | 50s
+[ref_tinyvit_s0] ep 03 train_loss 1.897 acc 0.445 | val_loss 1.575 acc 0.528 | 74s
+[ref_tinyvit_s0] ep 04 train_loss 1.530 acc 0.537 | val_loss 1.524 acc 0.549 | 99s
+[ref_tinyvit_s0] ep 05 train_loss 1.289 acc 0.606 | val_loss 1.126 acc 0.653 | 123s
+[ref_tinyvit_s0] ep 06 train_loss 1.110 acc 0.655 | val_loss 0.930 acc 0.719 | 147s
+[ref_tinyvit_s0] ep 07 train_loss 0.976 acc 0.696 | val_loss 0.772 acc 0.768 | 170s
+[ref_tinyvit_s0] ep 08 train_loss 0.824 acc 0.742 | val_loss 0.773 acc 0.755 | 194s
+[ref_tinyvit_s0] ep 09 train_loss 0.670 acc 0.783 | val_loss 0.744 acc 0.768 | 218s
+[ref_tinyvit_s0] ep 10 train_loss 0.569 acc 0.817 | val_loss 0.570 acc 0.819 | 241s
+[ref_tinyvit_s0] ep 11 train_loss 0.491 acc 0.846 | val_loss 0.549 acc 0.822 | 264s
+[ref_tinyvit_s0] ep 12 train_loss 0.454 acc 0.860 | val_loss 0.541 acc 0.825 | 288s
+[baseline_s0_lr1e-3] params=662,558 train=5286 val=1133
+[baseline_s0_lr1e-3] ep 01 train_loss 3.390 acc 0.124 | val_loss 2.927 acc 0.253 | 25s
+[baseline_s0_lr1e-3] ep 02 train_loss 2.612 acc 0.340 | val_loss 2.086 acc 0.480 | 46s
+[baseline_s0_lr1e-3] ep 03 train_loss 1.916 acc 0.503 | val_loss 1.670 acc 0.549 | 67s
+[baseline_s0_lr1e-3] ep 04 train_loss 1.510 acc 0.584 | val_loss 1.273 acc 0.611 | 88s
+[baseline_s0_lr1e-3] ep 05 train_loss 1.208 acc 0.649 | val_loss 1.155 acc 0.657 | 109s
+[baseline_s0_lr1e-3] ep 06 train_loss 0.996 acc 0.702 | val_loss 0.878 acc 0.737 | 130s
+[baseline_s0_lr1e-3] ep 07 train_loss 0.841 acc 0.754 | val_loss 0.761 acc 0.786 | 151s
+[baseline_s0_lr1e-3] ep 08 train_loss 0.697 acc 0.800 | val_loss 0.622 acc 0.822 | 171s
+[baseline_s0_lr1e-3] ep 09 train_loss 0.573 acc 0.838 | val_loss 0.491 acc 0.861 | 192s
+[baseline_s0_lr1e-3] ep 10 train_loss 0.507 acc 0.854 | val_loss 0.422 acc 0.884 | 212s
+[baseline_s0_lr1e-3] ep 11 train_loss 0.458 acc 0.874 | val_loss 0.391 acc 0.896 | 232s
+[baseline_s0_lr1e-3] ep 12 train_loss 0.414 acc 0.888 | val_loss 0.393 acc 0.889 | 252s
+ALL_TRAINING_DONE
