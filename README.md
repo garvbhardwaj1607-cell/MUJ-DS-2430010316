@@ -9,7 +9,7 @@
 - Instructor: Dr. Sandeep Gupta
 
 ## Project title
-**Explainable and Background-Robust Plant Disease Classification on PlantVillage** (Deep Learning project and capstone)
+**Explainable and Background-Robust Plant Disease Classification on PlantVillage**
 
 ## What this project does
 PlantVillage leaf photographs share a uniform background, so a classifier can partly rely on it. This project trains and compares from-scratch and ImageNet-pretrained CNNs on the real PlantVillage dataset, shows how much they depend on the background with a background-swap test, and fixes most of that dependence by training with random background replacement.
@@ -38,7 +38,7 @@ Full results, tables and limitations: [`capstone/README.md`](capstone/README.md)
 | `docs/`, `scripts/`, `.github/` | GitHub workflow, issue list and creation script, pull-request template |
 
 ## Quick start
-See [`INSTALL.md`](INSTALL.md). Demo on one image: `cd capstone && python ../code/demo.py --image leaf.jpg`.
+See [`INSTALL.md`](INSTALL.md). Demo on one image: `python code/demo.py --image leaf.jpg`.
 
 ## Deliverables checklist (guidelines, step 11)
 | Deliverable | Where |
