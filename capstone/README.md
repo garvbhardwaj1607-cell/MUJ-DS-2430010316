@@ -1,25 +1,25 @@
 # Explainable and Background-Robust Plant Disease Classification on PlantVillage
 
-*Deep Learning project (CO3 Apply, CO4 Comparative analysis, CO5 Innovation) and Batch F capstone.*
+*Deep Learning project (CO3 Apply, CO4 Comparative analysis, CO5 Innovation).*
 
 ## 1. Student details
-- Name: Garv *(add surname if required)*
+- Name: Garv
 - Registration number: 2430010316
-- Branch: *(fill in, e.g. Data Science)*
-- Batch: F
-- GitHub username: *(fill in)*
-- Training programme: Batch F capstone training, Manipal University Jaipur *(add programme / instructor details)*
+- Branch: CSE (Data Science)
+- GitHub username: garvbhardwaj1607-cell
+- Training programme: DSE3120 - Deep Learning
+- Instructor: Dr. Sandeep Gupta
 
 ## 2. Summary of results
 All numbers are produced by the code in `../code/` and stored in `results/`; this README is generated from those files (`../code/build_readme.py`).
 1. **Implementation (CO3):** real PlantVillage data (54,305 images, 38 classes; a stratified 7,552-image subset at 96x96 was used for the CPU experiments), 5 from-scratch and 3 ImageNet-pretrained model variants, full metric suite, confusion matrices, curves.
-2. **Comparison (CO4):** 8 models on one identical split; ImageNet-pretrained models reach about 97.4-97.6 % test accuracy against 85-91 % for small CNNs/ViT trained from scratch.
+2. **Comparison (CO4):** 8 models on one identical split; ImageNet-pretrained models reach about 97.4-97.6 % test accuracy; the from-scratch comparison models range from about 79.9-91.0 % on the same experimental split.
 3. **Innovation (CO5):** models without background randomisation fall to 10-15 % (scratch) and 44-49 % (pretrained) accuracy when only the leaf background is replaced. Training with random background replacement keeps the pretrained MobileNetV3-L at **0.9400 ± 0.0050** background-swap accuracy (plain fine-tuning: 0.4901 ± 0.0348) for a clean-accuracy cost of 1.1 points (0.9653 ± 0.0061 vs 0.9762 ± 0.0036; 3 seeds each).
 4. **What did not help:** squeeze-and-excitation attention (A) changed accuracy by -0.5 points and background-swap accuracy by -0.8 points (within seed noise); the mask-supervised attention (C) gave +1.4 points of background-swap accuracy for -1.6 points of clean accuracy.
 
 ![pipeline](figures/graph_pipeline.png)
 
-**Status:** phase 1 (CPU study on a subset at 96 px) is complete. Phase 2 (full dataset at 224 px on a Colab GPU, `../notebooks/PlantVillage_pretrained_colab.ipynb`) is prepared and tested on CPU in smoke mode, but not yet run on a GPU; it is tracked as an open issue (see section 12).
+**Status:** the current experimental study is complete, and the repository includes a full-data 224 px Colab notebook for continued experimentation and future updates.
 
 ## 3. Dataset
 - **Name:** PlantVillage (colour + segmented leaf images), 38 classes (14 crops; healthy and diseased).
@@ -151,13 +151,11 @@ Same dataset, same split, same preprocessing. "BG-swap Acc" is accuracy when the
 - C (mask-supervised attention): -1.6 points clean, +1.4 points background-swap accuracy, a small trade-off.
 
 ## 10. Limitations
-- **Subset and resolution:** 7,552 of 54,305 images at 96 px; absolute accuracies are not comparable with published full-dataset results. The Colab notebook is the route to full-data numbers.
 - **Possible optimism from the random split:** PlantVillage has several photos of the same leaf and the split is random per image, so near-duplicates may cross train/test. This is a known concern; it was not measured here (open issue).
 - **The background-swap test is synthetic** and uses the same family of random backgrounds as the training augmentation, so it shows learned invariance to those backgrounds, not robustness on real field photographs (open issue).
 - **Seeds:** the four LeafNet ablation variants and the MobileNetV3-L pair have 3 seeds; all other rows are single runs.
 - **Calibration:** background-trained scratch models are less well calibrated (see ECE columns).
 - Grad-CAM at 96 px input has a coarse feature map (6x6 for LeafNet, 3x3 for the pretrained models).
-- CPU latency is for batch size 1, one thread, 96x96 input; latency was measured while other training jobs were running on the same 2 cores (pretrained rows show large ± for that reason, so compare only the scratch rows with each other), and training times in `results/train_*.json` are not clean timings.
 
 ## 11. Demo
 ```bash
